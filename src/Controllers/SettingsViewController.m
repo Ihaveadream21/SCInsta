@@ -166,9 +166,9 @@
             [self newSwitchCellWithTitle:@"Disable safe mode" detailTitle:@"Makes Instagram not reset settings after subsequent crashes" key:@"disable_safe_mode" changeAction:nil],
 
             // Section 10: Credits
-            [self newSectionWithTitle:@"Credits" footer:[NSString stringWithFormat:@"SCInsta %@\n\nInstagram v%@", SCIVersionString, [SCIUtils IGVersionString]]],
+            [self newSectionWithTitle:@"Credits" footer:[NSString stringWithFormat:@"Xalo %@\n\nInstagram v%@", SCIVersionString, [SCIUtils IGVersionString]]],
             [self newLinkCellWithTitle:@"Developer" detailTitle:@"Xalo" url:@"https://www.instagram.com/aland1762?igsh=cnl1ZGQ4MnJ6anp2&utm_source=qr" iconURL:@"https://i.imgur.com/WSFMSok.png" iconTransparentBG:NO],
-            [self newLinkCellWithTitle:@"My GitHub" detailTitle:@"More about Xalo" url:@"https://github.com/Ihaveadream21" iconURL:@"https://i.imgur.com/BBUNzeP.png" iconTransparentBG:YES]
+            [self newLinkCellWithTitle:@"My GitHub" detailTitle:@"More about me" url:@"https://github.com/Ihaveadream21" iconURL:@"https://i.imgur.com/BBUNzeP.png" iconTransparentBG:YES]
         ]];
         
         [self collectDynamicSpecifiersFromArray:_specifiers];
