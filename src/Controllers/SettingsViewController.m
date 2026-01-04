@@ -89,7 +89,7 @@
 - (NSArray *)specifiers {
     if (!_specifiers) {        
         _specifiers = [NSMutableArray arrayWithArray:@[
-            [self newLinkCellWithTitle:@"Donate" detailTitle:@"Consider donating to support this tweak <3" url:@"https://ko-fi.com/socuul" iconURL:@"https://i.imgur.com/g4U5AMi.png" iconTransparentBG:YES],
+            [self newLinkCellWithTitle:@"Xalo" detailTitle:@"My Instagram <3" url:@"https://www.instagram.com/aland1762?igsh=cnl1ZGQ4MnJ6anp2&utm_source=qr" iconURL:@"https://i.imgur.com/g4U5AMi.png" iconTransparentBG:YES],
 
             // Section 1: General
             [self newSectionWithTitle:@"General" footer:nil],
@@ -167,8 +167,8 @@
 
             // Section 10: Credits
             [self newSectionWithTitle:@"Credits" footer:[NSString stringWithFormat:@"SCInsta %@\n\nInstagram v%@", SCIVersionString, [SCIUtils IGVersionString]]],
-            [self newLinkCellWithTitle:@"Developer" detailTitle:@"SoCuul" url:@"https://socuul.dev" iconURL:@"https://i.imgur.com/WSFMSok.png" iconTransparentBG:NO],
-            [self newLinkCellWithTitle:@"View Repo" detailTitle:@"View the tweak's source code on GitHub" url:@"https://github.com/SoCuul/SCInsta" iconURL:@"https://i.imgur.com/BBUNzeP.png" iconTransparentBG:YES]
+            [self newLinkCellWithTitle:@"Developer" detailTitle:@"Xalo" url:@"https://www.instagram.com/aland1762?igsh=cnl1ZGQ4MnJ6anp2&utm_source=qr" iconURL:@"https://i.imgur.com/WSFMSok.png" iconTransparentBG:NO],
+            [self newLinkCellWithTitle:@"My GitHub" detailTitle:@"More about Xalo" url:@"https://github.com/Ihaveadream21" iconURL:@"https://i.imgur.com/BBUNzeP.png" iconTransparentBG:YES]
         ]];
         
         [self collectDynamicSpecifiersFromArray:_specifiers];
